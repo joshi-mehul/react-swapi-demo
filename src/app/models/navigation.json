@@ -1,0 +1,42 @@
+{
+  "brand":      "Star Wars Jedi Helper",
+  "leftLinks":  [],
+  "rightLinks": [
+    {
+      "label":      "Home",
+      "link":       "/",
+      "view":       "home",
+      "isRouteBtn": true,
+      "alwaysShows": true,
+      "showWhenUserAuth": true,
+      "hideWhenUserAuth": false
+    },
+    {
+      "label":      "Login",
+      "link":       "/login",
+      "view":       "login",
+      "isRouteBtn": true,
+      "alwaysShows": false,
+      "showWhenUserAuth": false,
+      "hideWhenUserAuth": true
+    },
+    {
+      "label":      "Logout",
+      "link":       "/logout",
+      "view":       "logout",
+      "isRouteBtn": true,
+      "alwaysShows": false,
+      "showWhenUserAuth": true,
+      "hideWhenUserAuth": false
+    },
+    {
+      "label":      "Protected",
+      "link":       "/protected",
+      "view":       "protected",
+      "isRouteBtn": true,
+      "alwaysShows": true,
+      "showWhenUserAuth": true,
+      "hideWhenUserAuth": false
+    }
+  ]
+}
